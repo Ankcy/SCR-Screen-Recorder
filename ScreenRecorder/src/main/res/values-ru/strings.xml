@@ -1,0 +1,383 @@
+<resources>
+    <string name="free_app_name">"SCR Free"</string>
+    <string name="free_app_full_name">"SCR Screen Recorder Free"</string>
+    <string name="pro_app_name">"SCR Pro"</string>
+    <string name="pro_app_full_name">"SCR Screen Recorder Pro"</string>
+    <string name="free_app_no_root_name">"SCR 5+ Free"</string>
+    <string name="free_app_no_root_full_name">"SCR 5+ Screen Recorder Free
+"</string>
+    <string name="pro_app_no_root_name">"SCR 5+ Pro"</string>
+    <string name="pro_app_no_root_full_name">"SCR 5+ Screen Recorder Pro"</string>
+
+    <string name="play_free_app_name_30_char">"
+SCR Screen Recorder Free ★ root
+    "</string>
+    <string name="play_pro_app_name_30_char">"
+SCR Screen Recorder Pro ★ root
+    "</string>
+
+
+    <string name="play_description_short_80_char">"
+Запись экрана и системных звуков в видеофайл высокой четкости! Требуется root!
+    "</string>
+
+    <string name="play_root_required">"
+&lt;b&gt;Работает только на рутированных / взломанных / разблокированных устройствах!&lt;/b&gt;&lt;br/&gt;Не устанавливайте, если ваше устройство без root.
+    "</string>
+
+    <string name="play_description_main">"
+Ознакомьтесь с SCR Screen Recorder, самым эффективным приложением для записи экрана на Android.
+SCR Screen Recorder поддерживает все версии Android начиная с 4.0 и использует наилучший способ кодирования, доступный на любой платформе.
+С первого релиза в начале 2013, SCR Screen Recorder постоянно обновляется и обрастает новыми возможностями.
+
+Уникальные особенности:
+    "</string>
+
+    <string name="play_description_system_audio">"
+• СИСТЕМНОЕ ВОСПРОИЗВЕДЕНИЕ АУДИО - на большинстве устройств вы можете напрямую записывать
+звук в игре без потери качества, вызванного выходом записи с динамика микрофона.
+Опция \"Внутренний + микрофон\" позволяет добавлять к системной аудиозаписи свои комментарии через микрофон.
+На данный момент эта функция не доступна на Android 4.2, но будет добавлена в ближайшее время.
+    "</string>
+
+    <string name="play_description_features">"
+• ФРОНТАЛЬНАЯ КАМЕРА - поделитесь своими эмоциями, наложив свое изображение поверх записи.
+Окно камеры можно свободно перемещать, так что оно не будет мешать основным элементам управления.
+
+• БЕЗ РЕКЛАМЫ - в отличие от других \"бесплатных\" приложений захвата экрана, SCR вообще не отображает рекламу.
+Развитие всех моих приложений поддерживается только за счет пожертвований и Pro-версии.
+
+• НАСТРОЙКИ - не важно, что вы любите, пользоваться готовыми пресетами или настраивать каждый параметр вручную - у нас все схвачено.
+SCR поддерживает множество настроек обеспечивающих высокую производительность и стабильные предустановки.
+
+• ОСОБЕННОСТИ АЛЬФА - делитесь с нами своими предпочтениями, вступив в ряды наших альфа-тестеров Google+ на http://goo.gl/PGYZ8r
+Если вы хотите получать неофициальные обновления и тестироать новые функции, щелкните по ссылке в разделе \"О сообществе\".
+    "</string>
+
+    <string name="play_ban_disclaimer">"
+Предыдущая версия этого приложения имела свыше 2 миллионов загрузок и 37 положительных отзывов
+    "</string>
+
+    <string name="play_description_free_limits">"
+Версия &lt;b&gt;SCR Free&lt;/b&gt; ограничивается 3 минутами записи и имеет водяной знак SCR, который будет добавлен в ваше видео.
+Покупка &lt;b&gt;SCR Pro&lt;/b&gt; снимает ограничения по записи и убирает водяные знаки на видео.
+    "</string>
+
+        <string name="play_description_pro">"
+Чтобы убедиться в поддержке вашего устройства, перед покупкой протестируйте &lt;b&gt;БЕСПЛАТНУЮ&lt;/b&gt; версию.
+    "</string>
+
+    <string name="play_description_stablity">"
+SCR Screen Recorder использует различные хаки и неофициальные API, которые могут не работать на некоторых устройствах и прошивках.
+При возникновении ошибок, сообщите об этом на scr.screen.recorder@hotmail.com, это поможет мне в устранении проблем поддержки для вашего устройства.
+    "</string>
+
+
+
+    <string name="play_small_print_stats">"
+Это приложение собирает анонимную статистику для отслеживания ошибок при использовании и анализа совместимости устройств.
+    "</string>
+
+    <string name="play_small_print_lgpl">"
+Данное программное обеспечение использует неизмененный код FFmpeg 1.2 лицензируемый в рамках LGPL.
+    "</string>
+
+
+    <string name="play_noroot_description_short_80_char">"
+Облегченная запись экрана Lollipop с функцией наложения камеры. [без root]
+    "</string>
+
+    <string name="play_noroot_description_main">"
+SCR 5+ открывает новую главу в истории знаменитого SCR Screen Recorder.
+Благодаря новому Android 5.0, SCR 5+ позволит осуществлять запись происходящего на экране без доступа root!
+
+К сожалению Lollipop изначально не поддерживают внутреннюю аудиозапись,
+так что если вам нужна данная функция и устройство с root, устанавливайте SCR Screen Recorder Root.
+    "</string>
+
+    <string name="recording_saved_title">"Сохранение записи SCR"</string>
+    <string name="recording_saved_toast">"Запись сохранена в %1$s"</string>
+    <string name="max_file_size_reached_toast">"Достигнут максимальный размер файла. Запись сохранена в %1$s"</string>
+    <string name="play">"Играть"</string>
+
+    <string name="su_required_title">"Требуется доступ с правами root"</string>
+    <string name="su_required_message">"Для запуска любого подобного приложения, ваш телефон/планшет должен иметь root.
+        В интернете есть много учебников где описывается как рутировать различные устройства. Вернитесь снова, когда все будет готово!"</string>
+    <string name="su_required_help">"Что такое \"rooting\"?"</string>
+    <string name="su_required_help_link">"http://www.androidpolice.com/2010/04/15/rooting-explained-top-5-benefits-of-rooting-your-android-phone/"</string>
+    <string name="su_required_lollipop_message">"Чтобы задействовать весь потенциал %1$s ваше устройство должно иметь root.
+        Android 5.0 позволяет работать с записью экрана без root (без внутреннего аудио). Проверьте это, загрузив облегченный %2$s или переключившись на \"Режим без root\".
+    "</string>
+    <string name="su_required_lollipop_denied_message">"Если устройство имеет root, откройте %1$s и убедитесь, что вы случайно не отказали в доступе для %2$s."</string>
+    <string name="su_required_no_root_mode">"Режим без root"</string>
+
+    <string name="settings_no_root_only">"Только для кодеров без root"</string>
+    <string name="settings_root_only">"Только для кодеров с root"</string>
+    <string name="settings_no_root_mode">"Режим без root"</string>
+    <string name="settings_no_root_mode_summary">"Нажмите, чтобы запросить root доступ и задействовать все возможности"</string>
+
+    <string name="error_dialog_title">"Что-то не так :-("</string>
+    <string name="unknown_error_message">"Чтобы помочь нам решить проблему, будет отправлено анонимное сообщение об ошибке. Не стесняйтесь связаться через поддержку по электронной почте с указанием ошибки SR%1$d."</string>
+
+    <string name="selinux_error_title">"Ошибка доступа root"</string>
+    <string name="selinux_error_message">"Есть проблема с конфигурацией SELinux вашего устройства. Убедитесь, что устройство правильно укоренено и переключите SELinux в разрешающий режим, если это возможно."</string>
+
+    <string name="media_recorder_error_title">"Ошибка записи"</string>
+    <string name="media_recorder_error_message">"Попробуйте изменить разрешение или способ обработки изображения (GPU/CPU). Удалите другие приложения видеозахвата экрана, если таковые имеются. Если проблема не устраняется, свяжитесь через почту поддержки со ссылкой на ошибку R%1$d."</string>
+
+    <string name="video_codec_error_title">"Несовместимые настройки видео"</string>
+    <string name="video_codec_error_message">"Попробуйте уменьшить разрешение или битрейт видео. Обратите внимание, что на некоторых устройствах видео в портретной ориентации работает только с низким разрешением. Если проблема сохраняется, свяжитесь со мной через поддержку по почте с указанием ошибки R%1$d."</string>
+
+    <string name="output_file_error_title">"Не удается создать видеофайл"</string>
+    <string name="output_file_error_message">"SCR не удалось создать видеофайл %1$s. Убедитесь, что выбран выходной каталог для записи и SD-карта не заблокирована подключением через USB."</string>
+
+    <string name="microphone_busy_error_title">"Микрофон используется"</string>
+    <string name="microphone_busy_error_message">"
+        Только одно приложение одновременно может использовать микрофон. Это ограничение системы Android.
+        Закройте другие приложения использующие микрофон (например Google Now или Skype) или продолжайте запись в тихом режиме.
+    "</string>
+    <string name="microphone_busy_error_continue_mute">"Продолжить без звука"</string>
+
+    <string name="screen_protected_error_title">"Экран защищен"</string>
+    <string name="screen_protected_error_message">"Экран не может быть захвачен так как содержимое некоторых приложений отмечены как защищенные."</string>
+
+    <string name="opengl_error_title">"GPU не поддерживается"</string>
+    <string name="opengl_error_message">"Ваше GPU пока не поддерживается.
+        Переключите обработку изображения на CPU или используйте программный видеокодер.
+    "</string>
+
+    <string name="audio_config_error_title">"Ошибка аудио"</string>
+    <string name="audio_config_error_message">"Неподдерживаемая конфигурация аудио. Попробуйте изменить параметры звука SCR."</string>
+
+    <string name="android_version_error_title">"Версия Android не поддерживается"</string>
+    <string name="android_version_error_message">"Ваша версия Android пока не поддерживается."</string>
+
+    <string name="cpu_error_title">"CPU не поддерживается"</string>
+    <string name="cpu_error_message">"Архитектура процессора (%1$s) не поддерживается %2$s."</string>
+
+    <string name="installation_error_title">"Ошибка установки"</string>
+    <string name="installation_error_message">"Не удается установить необходимые файлы. Убедитесь в наличии свободного места на устройстве и перезапустите %1$s."</string>
+
+    <string name="help_stop_title">"Как остановить"</string>
+    <string name="help_stop_ok">"Понятно!"</string>
+
+    <string name="free_timeout_title">"Лимит времени истек"</string>
+    <string name="free_timeout_message">"Покупка SCR Screen Recorder Pro, дает вам неограниченное время записи и убирает водяные знаки на видео."</string>
+    <string name="free_timeout_buy">"Купить сейчас!"</string>
+    <string name="free_timeout_no_thanks">"Нет, спасибо"</string>
+    <string name="hide_icon_title">"Pro–функция"</string>
+    <string name="hide_icon_message">"Покупка SCR Screen Recorder Pro позволяет скрывать водяной знак и значок уведомления. А еще вы получаете неограниченное время записи!"</string>
+
+    <string name="buy_error_title">"Ошибка Google"</string>
+    <string name="buy_error_message">"Ищите SCR Screen Recorder Pro в Google Play"</string>
+
+    <string name="settings_activity_label">"Настройки SCR"</string>
+    <string name="settings_title">"Настройки"</string>
+    <string name="settings_ok">"OK"</string>
+    <string name="settings_reset">"Сброс"</string>
+    <string name="settings_cancel">"Отмена"</string>
+
+    <string name="settings_unstable">"%1$s (нестабильно)"</string>
+
+    <string name="settings_video_category">"Видео"</string>
+
+    <string name="settings_video_encoder">"Кодер"</string>
+    <string name="settings_video_encoder_h264">"H264"</string>
+    <string name="settings_video_encoder_mpeg_4_sp">"MPEG-4 SP"</string>
+    <string name="settings_video_encoder_ffmpeg_mpeg_4">"Программный MPEG-4"</string>
+    <string name="settings_video_encoder_built_in_summary">"Встроенный кодер Android %1$s"</string>
+    <string name="settings_video_encoder_ffmpeg_summary">"FFmpeg программный кодер MPEG4"</string>
+    <string name="settings_video_encoder_no_root_h264">"H264 (без root)"</string>
+    <string name="settings_video_encoder_no_root_mpeg_4">"MPEG-4 (без root)"</string>
+    <string name="settings_video_encoder_mpeg_4">"MPEG-4"</string>
+
+    <string name="settings_resolution">"Разрешение"</string>
+    <string name="settings_resolution_short">"%1$dх%2$d"</string>
+    <string name="settings_resolution_p">"%1$dх%2$d - %2$dp"</string>
+    <string name="settings_resolution_horizontal">"%1$dх%2$d - %1$dp горизонтально"</string>
+    <string name="settings_resolution_padding">"%1$dх%2$d - %2$dp с полями"</string>
+    <string name="settings_resolution_max">"%1$dх%2$d - максимум"</string>
+    <string name="settings_resolution_half">"%1$dх%2$d - половина"</string>
+
+    <string name="settings_transformation">"Обработка изображения"</string>
+    <string name="settings_transformation_cpu">"CPU"</string>
+    <string name="settings_transformation_gpu">"GPU"</string>
+    <string name="settings_transformation_oes">"GPU+"</string>
+    <string name="settings_transformation_cpu_summary">"Используется процессор (CPU)"</string>
+    <string name="settings_transformation_gpu_summary">"Используется графический чип (%1$s)"</string>
+    <string name="settings_transformation_sw_summary">"Недоступно в программном кодере"</string>
+
+    <string name="settings_video_bitrate">"Битрейт"</string>
+    <string name="settings_video_bitrate_summary">"около %1$s в зависимости от кодера"</string>
+    <string name="settings_video_bitrate_default">"Умолчание"</string>
+
+
+    <string name="settings_frame_rate">"Частота кадров"</string>
+    <string name="settings_frame_rate_max">"Максимум"</string>
+    <string name="settings_frame_rate_max_short">"Макс"</string>
+    <string name="settings_frame_rate_up_to">"До %1$d fps"</string>
+    <string name="settings_frame_rate_up_to_short">"%1$d fps"</string>
+    <string name="settings_frame_rate_summary">"До %1$dfps, ограничивается аппаратными возможностями"</string>
+    <string name="settings_frame_rate_max_summary">"Максимально допустимое оборудованием"</string>
+
+    <string name="settings_orientation">"Ориентация"</string>
+    <string name="settings_orientation_description">"
+        По умолчанию видео кадры всегда горизонтальные и метаданные вращения добавляются к портретной записи.
+        YouTube и видео-плеер Android воспроизводят такое видео правильно, однако некоторые PC-плееры (например VLC)
+        игнорируют метаданные вращения и отображают его в альбомной ориентации.
+        Вы можете включить вертикальные кадры ниже, но используйте этот параметр с осторожностью, так как многие устройства
+        не записывают/воспроизводят видео с такими кадрами.
+    "</string>
+    <string name="settings_orientation_auto">"Авто"</string>
+    <string name="settings_orientation_portrait">"Портретная"</string>
+    <string name="settings_orientation_landscape">"Альбомная"</string>
+    <string name="settings_orientation_clockwise">"повернуть по часовой"</string>
+    <string name="settings_orientation_anticlockwise">"повернуть против часовой"</string>
+
+    <string name="settings_vertical_frames">"Вертикальный кадр"</string>
+    <string name="settings_vertical_frames_warning">"Видео-плееры многих устройств не могут проигрывать вертикальные кадры.
+        Даже если этот параметр отключен, метаданные ориентации добавляются к видео, поэтому отображение будет всегда правильным в стандартном плеере, YouTube и т.д."</string>
+
+    <string name="settings_audio_category">"Аудио"</string>
+    <string name="settings_audio_source">"Источник"</string>
+    <string name="settings_audio_mic">"Микрофон"</string>
+    <string name="settings_audio_mute">"Без звука"</string>
+    <string name="settings_audio_internal">"Внутренний"</string>
+    <string name="settings_audio_experimental">"эксперимент"</string>
+    <string name="settings_audio_mix">"Внутренний + микрофон"</string>
+    <string name="settings_audio_use_headphones">"во избежание эха, используйте проводные наушники"</string>
+    <string name="settings_audio_not_supported">"Не поддерживается на %1$s"</string>
+    <string name="settings_audio_incompatible">"Не совместим с драйвером звука"</string>
+    <string name="settings_audio_mic_summary">"Микрофон"</string>
+    <string name="settings_audio_mute_summary">"Тихо (без звуковой дорожки)"</string>
+    <string name="settings_audio_internal_summary">"Системный аудио выход"</string>
+    <string name="settings_audio_mix_summary">"Микрофон + внутренний (используйте наушники!)"</string>
+    <string name="settings_sampling_rate">"Качество звука"</string>
+
+    <string name="settings_mic_gain">"Усиление микрофона"</string>
+    <string name="settings_mic_gain_summary_mix_only">"Доступно только для %1$s"</string>
+    <string name="settings_mic_gain_summary_default">"Использовать объем по умолчанию"</string>
+    <string name="settings_mic_gain_summary">"Увеличение громкости на %1$ddB"</string>
+
+    <string name="settings_other_category">"Другое"</string>
+    <string name="settings_hide_icon">"Скрыть значок"</string>
+    <string name="settings_show_touches">"Показать нажатия"</string>
+    <string name="settings_show_touches_summary">"Отображает точки в местах нажатия на экран. Также это можно сделать постоянным через Настройки Android→Для разработчиков→Показывать нажатия"</string>
+    <string name="settings_output_dir">"Выходной каталог"</string>
+    <string name="settings_stop_when_screen_off">"Закончить при выкл экрана"</string>
+    <string name="settings_stop_when_screen_off_summary">"Останавливать запись после отключения экрана"</string>
+    <string name="settings_color_fix">"Фикс инверсии цвета"</string>
+    <string name="settings_color_fix_summary">"Включите этот параметр если синий и красный цвета инвертированы"</string>
+
+    <string name="settings_zigzag_fix">"Фикс зигзагов"</string>
+    <string name="settings_zigzag_fix_summary">"Используйте если в записи присутствуют случайные цветные полосы"</string>
+    <string name="settings_zigzag_fix_cpu_only">"Доступно только при обработке изображения процессором"</string>
+
+    <string name="settings_video_config">"Пресеты %1$s"</string>
+    <string name="settings_video_config_entry">"%1$dx%2$d ~ %3$.0ffps"</string>
+    <string name="settings_video_config_entry_stability">"%1$d%% стабильно"</string>
+    <string name="settings_video_config_summary">"На основе статистики использования"</string>
+    <string name="settings_video_config_summary_no_data">"Не удалось загрузить данные"</string>
+    <string name="settings_video_config_summary_not_available">"Данные еще не существуют"</string>
+
+    <string name="device_profile_download_error_toast">"Не удается загрузить рекомендуемые настройки. Убедитесь, что вы в сети."</string>
+    <string name="device_profile_downloaded_toast">"Рекомендуемые настройки загружены"</string>
+
+    <string name="directory_chooser_select">"Выбрать \"%1$s\""</string>
+    <string name="directory_chooser_refresh">"Обновить"</string>
+    <string name="directory_chooser_new">"Новый"</string>
+    <string name="directory_chooser_new_title">"Название нового каталога"</string>
+    <string name="directory_chooser_new_ok">"OK"</string>
+    <string name="directory_chooser_new_cancel">"Отмена"</string>
+    <string name="directory_chooser_error_message">"Каталог не может быть создан. Убедитесь, что выбрано место для записи например SD-карта."</string>
+    <string name="directory_chooser_not_writable_title">"Каталог не доступен для записи"</string>
+    <string name="directory_chooser_not_writable_message">"Приложение не имеет прав на запись в каталог %1$s. Это может привести к проблемам записи."</string>
+    <string name="directory_chooser_ignore">"Игнорировать"</string>
+    <string name="directory_chooser_cancel">"Отмена"</string>
+    <string name="directory_chooser_default">"Умолчание"</string>
+
+    <string name="error_report_report">"Отчет"</string>
+    <string name="error_report_close">"Закрыть"</string>
+    <string name="error_report_text">"Вложение содержит подробный системный журнал, включая информацию об ошибке. Не стесняйтесь добавлять здесь любые комментарии."</string>
+    <string name="error_report_chooser">"Сообщить об ошибке по почте"</string>
+
+    <string name="rating_rate_title">"Рейтинг %1$s"</string>
+    <string name="rating_rate_message">"Если вам нравится использовать %1$s, пожалуйста уделите минутку чтобы оценить его. Спасибо за поддержку!"</string>
+    <string name="rating_rate_now">"Оценить сейчас!"</string>
+    <string name="rating_remind">"Напомнить позже"</string>
+    <string name="rating_no_thanks">"Нет, спасибо"</string>
+    <string name="rating_play_error">"Не удалось открыть Google Play."</string>
+
+    <string name="help_stop_message">"Для остановки записи заблокируйте экран и подождите 2 секунды. В качестве альтернативы можно просто открыть приложение %1$s."</string>
+    <string name="menu_send_bug_report">"Сообщить об ошибке"</string>
+    <string name="menu_show_unstable">"Показать нестабильные"</string>
+    <string name="menu_show_advanced">"Показать расширенные"</string>
+
+    <string name="notification_status_initializing">"Инициализация..."</string>
+    <string name="notification_status_waiting_for_root">"Ожидание доступа root"</string>
+    <string name="notification_status_waiting_for_projection">"Ожидание доступа захвата экрана"</string>
+    <string name="notification_status_installing_audio">"Установка аудио драйвера"</string>
+    <string name="notification_status_ready">"Готов"</string>
+    <string name="notification_status_starting">"Запуск"</string>
+    <string name="notification_status_recording">"Запись"</string>
+    <string name="notification_status_error">"[ошибка]"</string>
+    <string name="notification_status_stopping">"Остановка"</string>
+    <string name="notification_status_uninstalling_audio">"Удаление аудио драйвера"</string>
+
+    <string name="sale_title">"Распродажа"</string>
+    <string name="sale_text">"Купите SCR Pro сейчас и сэкономьте %1$d %%! Это предложение заканчивается %2$s."</string>
+
+    <string name="copyrights_statement">"Используя %1$s вы подтверждаете свою ответственность за обеспечение ненарушения чужого авторского права или других прав интеллектуальной собственности."</string>
+    <string name="internal_audio_installation_error_title">"Ошибка внутреннего звука"</string>
+    <string name="internal_audio_installation_error_message">"Не удается включить внутренний звук. Пожалуйста, отправьте отчет об ошибке, это поможет мне в устранении проблем поддержки для вашего устройства. Источник звука будет переключен на %1$s."</string>
+    <string name="internal_audio_unstable_title">"Внутренний звук нестабилен"</string>
+    <string name="internal_audio_unstable_message">"Обнаружена проблема стабильности внутреннего звука. Пожалуйста, отправьте отчет об ошибке, это поможет мне в устранении проблем поддержки для вашего устройства. Источник звука будет переключен на %1$s."</string>
+    <string name="internal_audio_disabled_title">"Внутренний звук отключен"</string>
+    <string name="internal_audio_disabled_message">"Внутренняя запись отключена из-за некорректного завершения работы %1$s. Вы можете повторно включить ее в настройках."</string>
+
+    <string name="license_title">"Ошибка лицензии"</string>
+    <string name="license_not_licensed_message">"Ошибка проверки лицензии. Приобретите SCR Pro через Google Play Store. Если у вас установлен Lucky Patcher, отключите эмуляцию Google Play."</string>
+    <string name="license_retry_message">"Ошибка проверки лицензии. Убедитесь, что установлено соединение с интернетом, дата и время установлены верно
+        и вы вошли в Google Play Store. После проверки вы сможете продолжить пользоваться SCR Pro в автономном режиме."</string>
+    <string name="license_error_message">"Ошибка проверки лицензии. Убедитесь, что SCR Pro установлен через Google Play, а дата и время настроены верно.
+        Если проблема сохраняется, попробуйте очистить данные и кэш приложений \"Google Play services\" и \"Google Play Store\".
+    "</string>
+    <string name="license_play_store">"Play Store"</string>
+    <string name="license_retry">"Повторить"</string>
+    <string name="license_continue_as_free">"Продолжить бесплатно"</string>
+
+    <string name="su_denied_message">"На устройстве есть проблема доступа с правами root.
+        Откройте %1$s и убедитесь, что вы случайно не отказали в доступе для %2$s."</string>
+    <string name="su_default_name">"суперпользователь"</string>
+
+    <string name="can_not_start_toast">"Не удается начать запись: %1$s"</string>
+
+    <string name="settings_show_camera">"Фронтальная камера"</string>
+    <string name="settings_show_camera_summary">"Позволяет наложить изображение поверх записи"</string>
+    <string name="settings_camera_alpha_title">"Видимость окна"</string>
+    <string name="settings_camera_alpha_summary">"непрозрачность %1$d%%"</string>
+    <string name="settings_camera_alpha_summary_100">"непрозрачность 100%"</string>
+
+    <string name="miui_error_message">"Если вы не видите плавающее окно %1$s, зайдите в настройки приложений MiUi и включите \"Показать всплывающие окна\" для %1$s."</string>
+    <string name="miui_error_title">"Всплывающие окна отключены?"</string>
+
+    <string name="lollipop_dialog_title">"Попробуйте SCR 5+"</string>
+    <string name="lollipop_dialog_message">"Хотите испытать мое новое, облегченное приложение записи экрана не требующее root? Оно использует официальный API захвата экрана реализованный в Android 5.0 и запись звука с микрофона."</string>
+    <string name="lollipop_dialog_try_now">"Попробовать"</string>
+
+    <string name="projection_deny_error_message">"Вам нужно нажать СТАРТ для работы в записи."</string>
+    <string name="projection_deny_error_title">"Нет доступа к экрану"</string>
+
+    <string name="notification_action_share">"Поделиться"</string>
+    <string name="internal_audio_warning_title">"Предупреждение установки"</string>
+
+    <string name="internal_audio_warning_message">"
+Установка аудио драйвера на устройство требует внесения изменений в системный раздел.
+В особо редких случаях, ошибка установки может повлечь за собой бутлуп или превратить устройство в кирпич.
+Прежде чем продолжить, убедитесь, что вы знаете как перепрошивать системный раздел или восстанавливать систему из резервной копии.
+На будущее, если вы захотите удалить %1$s, сначала откройте настройки приложения и отключите внутренний звук!
+    "</string>
+    <string name="internal_audio_warning_confirmation">"Я знаю как это делать"</string>
+    <string name="internal_audio_warning_dont_show">"Не показывать снова"</string>
+    <string name="internal_audio_warning_install">"Установка"</string>
+</resources>

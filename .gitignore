@@ -1,0 +1,13 @@
+.idea
+*.iml
+/build
+local.properties
+.gradle
+/ScreenRecorder/build
+ScreenRecorder/src/*/res/raw-v*/*
+/videorepairlib
+/gradle
+/gradlew
+/gradlew.bat
+
+

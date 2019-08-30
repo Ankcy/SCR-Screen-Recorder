@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scr="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:key="copyrights_statement"
+        android:selectable="false" />
+    <Preference
+        android:key="donate"
+        android:title="@string/settings_donate" />
+    <Preference
+        android:key="no_root_mode"
+        android:title="@string/settings_no_root_mode"
+        android:summary="@string/settings_no_root_mode_summary" />
+    <PreferenceCategory android:key="video" android:title="@string/settings_video_category">
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="video_config"
+            android:persistent="false" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="video_encoder"
+            android:persistent="false"
+            android:summary="@string/settings_video_encoder_built_in_summary"
+            android:title="@string/settings_video_encoder" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="resolution"
+            android:persistent="false"
+            android:title="@string/settings_resolution" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="transformation"
+            android:persistent="false"
+            android:summary="@string/settings_transformation_cpu_summary"
+            android:title="@string/settings_transformation" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="video_bitrate"
+            android:persistent="false"
+            android:title="@string/settings_video_bitrate" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="frame_rate"
+            android:persistent="false"
+            android:summary="@string/settings_frame_rate_summary"
+            android:title="@string/settings_frame_rate" />
+
+        <ListPreference
+            android:entries="@array/orientation_entries"
+            android:entryValues="@array/orientation_values"
+            android:key="orientation"
+            android:persistent="false"
+            android:title="@string/settings_orientation" />
+
+        <CheckBoxPreference
+            android:key="vertical_frames"
+            android:persistent="false"
+            android:summary="@string/settings_vertical_frames_warning"
+            android:title="@string/settings_vertical_frames" />
+
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="time_lapse"
+            android:persistent="false"
+            android:title="@string/settings_time_lapse" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="audio" android:title="@string/settings_audio_category">
+        <ListPreference
+            android:entries="@array/audio_source_entries"
+            android:entryValues="@array/audio_source_values"
+            android:key="audio_source"
+            android:persistent="false"
+            android:title="@string/settings_audio_source" />
+        <ListPreference
+            android:entries="@array/empty_array"
+            android:entryValues="@array/empty_array"
+            android:key="sampling_rate"
+            android:persistent="false"
+            android:title="@string/settings_sampling_rate" />
+        <CheckBoxPreference
+            android:key="stereo"
+            android:persistent="false"
+            android:title="@string/settings_stereo"
+            android:summary="@string/settings_stereo_summary" />
+        <com.iwobanas.screenrecorder.settings.SliderPreference
+            android:key="mic_gain"
+            android:persistent="false"
+            android:title="@string/settings_mic_gain"
+            scr:max="4"
+            scr:min="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="other" android:title="@string/settings_other_category">
+        <CheckBoxPreference
+            android:key="show_camera"
+            android:persistent="false"
+            android:summary="@string/settings_show_camera_summary"
+            android:title="@string/settings_show_camera" />
+        <com.iwobanas.screenrecorder.settings.SliderPreference
+            android:dependency="show_camera"
+            android:key="camera_alpha"
+            android:persistent="false"
+            android:summary="@string/settings_camera_alpha_summary"
+            android:title="@string/settings_camera_alpha_title"
+            scr:max="100"
+            scr:min="20" />
+        <CheckBoxPreference
+            android:key="hide_icon"
+            android:persistent="false"
+            android:title="@string/settings_hide_icon" />
+        <CheckBoxPreference
+            android:key="show_touches"
+            android:persistent="false"
+            android:summary="@string/settings_show_touches_summary"
+            android:title="@string/settings_show_touches" />
+        <Preference
+            android:key="document_dir"
+            android:persistent="false"
+            android:title="@string/settings_document_dir"/>
+        <Preference
+            android:key="output_dir"
+            android:persistent="false"
+            android:title="@string/settings_output_dir"/>
+        <CheckBoxPreference
+            android:key="stop_on_screen_off"
+            android:persistent="false"
+            android:summary="@string/settings_stop_when_screen_off_summary"
+            android:title="@string/settings_stop_when_screen_off" />
+        <CheckBoxPreference
+            android:key="color_fix"
+            android:persistent="false"
+            android:summary="@string/settings_color_fix_summary"
+            android:title="@string/settings_color_fix" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_recommended_apps">
+        <Preference android:key="gusher"
+            android:persistent="false"
+            android:summary="@string/settings_gusher_summary"
+            android:title="@string/settings_gusher_title" />
+        <Preference android:key="mp4fix"
+            android:persistent="false"
+            android:summary="@string/settings_mp4fix_summary"
+            android:title="@string/video_repair_app_name" />
+    </PreferenceCategory>
+</PreferenceScreen>
